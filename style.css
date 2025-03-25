@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f0f0f0;
+    color: #fff;
+}
+
+/* Estilo del Banner */
+.banner {
+    background: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(47, 128, 237, 0.9)), url('banner.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 60px 20px;
+    text-align: center;
+    color: white;
+}
+
+.banner h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.banner p {
+    font-size: 18px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
+    text-align: left;
+}
+
+.info img {
+    width: 150px;
+    border-radius: 10px;
+}
+
+.gallery {
+    text-align: center;
+    padding: 40px 20px;
+    background: linear-gradient(to bottom, rgba(47, 128, 237, 0.9), rgba(0, 0, 50, 0.9));
+}
+
+.gallery h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+/* Diseño de la galería */
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    justify-content: center;
+    padding: 10px;
+}
+
+.gallery-container img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #1e3a8a;
+}
